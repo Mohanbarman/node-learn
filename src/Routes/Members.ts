@@ -3,7 +3,7 @@ import { demoMembers } from '../demoContent';
 
 
 export function MembersRoute(req: Request, res: Response) {
-    const id = req.params.id;
+    const id:string = req.params.id;
     const member = demoMembers.find(member => member.id == id);
     // If member not found
     if (!member) {
