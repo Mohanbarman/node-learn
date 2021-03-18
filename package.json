@@ -1,0 +1,23 @@
+{
+  "name": "express-js-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "express": "^4.17.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
